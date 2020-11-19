@@ -1,0 +1,30 @@
+{
+    "name": "spinner",
+    "version": "1.0.0",
+    "description": "Test for internal client tool",
+    "main": "server.js",
+    "scripts": {
+        "client": "cd client && yarn start",
+        "server": "nodemon server.js",
+        "dev": "concurrently \"yarn server\" \"yarn client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DrDestroydo/Spinner.git"
+    },
+    "author": "Ben Woods",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/DrDestroydo/Spinner/issues"
+    },
+    "homepage": "https://github.com/DrDestroydo/Spinner#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.15"
+    },
+    "devDependencies": {
+        "concurrently": "^5.3.0",
+        "nodemon": "^2.0.6"
+    }
+}
